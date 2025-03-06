@@ -1,1 +1,17 @@
 .DS_Store
+*.log
+*.fls
+*.fdb_latexmk
+*.aux
+*.toc
+*.run.xml
+*.synctex.gz
+*.dvi
+*.ps
+*.pdf
+Fichiers-LaTeX/*.fdb_latexmk
+Fichiers-LaTeX/*.fls
+Fichiers-LaTeX/*.aux
+Fichiers-LaTeX/*.synctex.gz
+Fichiers-LaTeX/*.log
+Fichiers-LaTeX/*.pdf
