@@ -27,3 +27,9 @@ Quantification existentielle & $\exists$ \\
 \subsection{Trouver un symbole précis}
 
 Voir ce site : \url{http://detexify.kirelabs.org/classify.html}. Il suffit de dessiner le symbole dont vous avez besoin et le site trouvera (normalement) la bonne commande à taper (ainsi que le package à éventuellement inclure si besoin est).
+
+\subsection{Formalisation du problème}
+Soit $pref\_suff(T, N)$, une notation tel que $T$ est un tableau et $N$ est un entier. On définit $pref\_suff(T, N)$ comme étant le plus grand sous-tableau de $T$ qui est à la fois préfixe et suffixe de $T$ et qui a une longueur de $N$. En effet, on a :
+\begin{equation}
+   pref\_suff(T, N) = \max \{\forall k \in \mathbb{N} \mid 0 \leq k \leq N-1 \land T[0, k] = T[N-k, N-1]\}
+\end{equation}
